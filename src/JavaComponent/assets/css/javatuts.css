@@ -1,0 +1,54 @@
+
+#link {
+    height: 46px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.ddsmoothmenu {
+    font-size: 13px;
+    background-color: #1d74ee;
+    width: 100%;
+}
+
+div {
+    display: block;
+}
+
+/* Navbar styling */
+#link #smoothmenu1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #link #smoothmenu1 li {
+    float: left;
+  }
+  
+  #link #smoothmenu1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  #link #smoothmenu1 li:hover {
+    background-color: #072371;
+  }
+
+  #link #smoothmenu1 li.active {
+    background-color: #ea2744;
+  }
+
+  #link #smoothmenu1 li.current {
+    background-color: #a4e143;
+  }
+
+  #link #smoothmenu1 li.visited {
+    background-color: #d8619f;
+  }
+

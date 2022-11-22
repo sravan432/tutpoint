@@ -1,0 +1,148 @@
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    color: rgb(182, 86, 18);
+    font-weight: 450;
+}
+
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-weight: 400;
+    color: rgb(21, 76, 12);
+}
+
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-weight: 400;
+    color: rgb(21, 76, 12);
+}
+
+h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-weight: 400;
+    color: rgb(21, 76, 12);
+}
+
+p{
+    text-align: justify;
+}
+
+h5+p{
+    padding-left: 20px;
+}
+
+h5+p+ul{
+    padding-left: 60px;
+}
+
+p+ul{
+    padding-left: 60px;
+}
+p+ol{
+    padding-left: 60px;
+}
+
+
+
+p{
+    padding-left: 5px;
+    padding-right: 10px;
+
+}
+
+.previousbutton{
+    background-color: #1a084a;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow:4px 4px 2px #323136;
+}
+
+.previousbutton:hover{
+    background-color: green;
+    border: #470beb;
+}
+
+
+.nextbutton {
+    float: right;
+    color: white;
+    background-color: #1a084a;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow:4px 4px 2px #323136;
+}
+
+.nextbutton:hover{
+    background-color: green;
+    border: #470beb;
+}
+
+
+.code{
+    background-color: #3fe84a;
+    padding: 10px;
+}
+
+.code div{
+    font-size: 200;
+    background-color: white;
+    font-weight: bold;
+}
+
+ul li{
+    line-height: 30px;
+}
+
+ol li{
+    line-height: 30px;
+}
+
+.syntax{
+    border: solid #1a084a;
+    background-color: #3fe84a;
+}
+
+.syntax p{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.example{
+    border: solid #1a084a;
+    background-color: #bce42f;
+}
+
+.example p{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: medium;
+    font-weight: 450;
+    color: black;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #0d0b0b;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
